@@ -1,5 +1,6 @@
 # An analysis of Alpine F1 team and McLaren's performance in the 2022 Formula 1 Constructors’ World Championship.
 
+[View Presentation on Tableau](https://public.tableau.com/shared/2PX2SQPJB?:display_count=n&:origin=viz_share_link)
 
 ## Background:
 There have been 10 teams competing for the constructors championship since 2016 in Formula 1 (F1). Three teams have dominated the top standings since then. Given the budgets and resources available, it was difficult for other teams to break into that barrier. The introduction of a cost cap ($145m) in 2021 intended to reduce the financial advantage these teams had and increase the level of competition across the 10 teams on the grid. In 2022, the race between McLaren and Alpine F1 team mid teams for fourth place were very close throughout the season.
@@ -14,12 +15,12 @@ Our aim was to analyze the performance of McLaren and the Alpine F1 team using f
 This project is intended for Formula 1 fans who are also interested in sports analytics. As data-driven decision making continues to influence the evolution of sports, the interest in big data from fans has been growing.  It is the intention to have these results compared to the 2023 season and further developed into a predictive model for future seasons. 
 
 ## Data Collection:
- Data for this project was collected from Kaggle (https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020).
- Data set was originally compiled from (http://ergast.com/mrd/) by Rohan Rao, a data scientist based out of India. 
+ Data for this project was collected from [Kaggle](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020).
+ Data set was originally compiled from [ergast.com](http://ergast.com/mrd/) by Rohan Rao. 
  
 ## Methodology: 
 ### Data quality check and preliminary analysis.
-Data downloaded from Kaggle was already organized into 14 cvs files which was easier to use than from the original source at ergast.com. 
+Data downloaded from Kaggle was already organized into 14 cvs files, 644,7200 rows and 121 columns in total, which was easier to use than from the original source at ergast.com. 
 Preliminary data quality check was done in excel. The following issues were identified:
 * Names with special characters appeared incorrectly. E.g. “R√§ikk√∂nen” instead of “Räikkönen”.
 * Data stretched from 1950-2023. Changes to the sport over time resulted in missing data for categories depending on the year. For example:
