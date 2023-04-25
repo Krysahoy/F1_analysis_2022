@@ -35,6 +35,7 @@ Preliminary data quality check was done in excel. The following issues were iden
 *	Some tables used ID numbers only, other tables were a reference key for these IDs.
 *	Some missing data which was indicated by N or sometimes blank. 
 *	Lap times were separated into two columns (time, milliseconds) but milliseconds were not included for fastest lap time.
+*	There were no duplicates in the data. 
 
 ### Based on the above observations the following actions were taken: 
 1.	Created a new database by importing the files downloaded locally using SQLite on DBeaver. 
