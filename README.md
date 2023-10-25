@@ -58,7 +58,7 @@ Preliminary data quality check was done in excel. The following issues were iden
 
 #### Updates from preliminary analysis:
 1.  All teams that participated in the 2022 season were included in this project. 
-2.  Focus teams for 4th position were narrowed down to McLaren and the Alpine F1 team since a large gap between 5th and 6th place on the constructors table was identified upon further analysis. 
+2.  Focus teams for 4th position was narrowed down to McLaren and the Alpine F1 team since a large gap between 5th and 6th place on the constructors table was identified upon further analysis. 
 3.  While this project compares McLaren and the Alpine F1 team, the interactive charts in the presentation allow users to compare other teams’ performance as well. 
 4.  An interactive dashboard was created to allow users to view individual driver performance and team pit strategy per race. 
 5.  Data cleaning was done in excel and SQL, aggregate calculations were performed in SQL and tableau. It was decided that Python was not necessary for this project however, the fasf1 python package will be utilized for future analysis. 
